@@ -6,13 +6,13 @@ Disable / configure TypeScript diagnostics.
 
 ### Toggle
 
-This was mainly created for easy reading just-cloned repos that don't have dependencies installed yet (so you don't have bunch of red lines). That's why there is statusbar item that can toggle `disableTsErrors.disableAllErrors` setting.
+This was mainly created for easier reading of just-cloned repos that don't have dependencies installed yet (so you don't have bunch of red lines). That's why there is statusbar item that can toggle `disableTsErrors.disableAllErrors` setting.
 
 ### Per-diagnostic configuration
 
-For projects without typechecking (without jsconfig, js only) you can use `disableTsErrors.customizations` to disable specific, similar how you can override eslint rules reporting with `eslint.rules.customizations`.
+For projects without typechecking (without jsconfig, js only) you can use `disableTsErrors.customizations` to disable specific diagnostics, similar how you can override eslint rules reporting with `eslint.rules.customizations`.
 
-Also you can use this setting to disable refactoring hints, such as suggestions for unused variables. Or change severity of errors to warning or hint?
+Also you can use this setting to disable refactoring hints, such as suggestions for unused variables. Or you can change severity of some errors to warning or hint.
 
 ### Using with tsc-silent
 
